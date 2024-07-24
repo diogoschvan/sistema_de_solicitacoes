@@ -1,0 +1,118 @@
+.sidebar{
+    background-color: var(--default-theme-background);
+    width: 260px;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: background-color 0.3s linear;
+}
+
+.logo{
+    height: 42px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.separador{
+    width:228px;
+    height: 1px;
+    margin-left: 10px;
+    
+    background-color: #252525;
+}
+
+.menuSection{
+    padding: 8px 21px 8px 12px;
+}
+
+.sectionTitle{
+    color: var(--default-title-sidebar-theme-text);
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding-left: 11px;
+}
+
+.linkContainer{
+    margin-top: 8px;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    
+    color: #878787;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 2px 2px 2px 0px;
+    cursor: pointer;
+}
+
+.link:not(.active):hover,
+.link:not(.active):hover svg{
+    color: #a9a9a9;
+    fill: #a9a9a9;
+}
+
+.icon{
+    width: 17px;
+    height: 17px;
+
+    fill: #878787;
+    padding-left: 8px;
+}
+
+.linkText{
+    font-family: Rubik;
+    font-size: 14px;
+}
+
+.bottomSection{
+    margin-bottom: 30px;
+
+}
+
+.bottomLink{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    padding: 2px 2px 2px 0px;
+    cursor: pointer;
+}
+
+.bottomIcon{
+    width: 17px;
+    height: 17px;
+
+    fill: #878787;
+    padding-left: 8px;
+}
+
+.userSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.userName{
+    color: var(--default-title-sidebar-theme-text);
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+

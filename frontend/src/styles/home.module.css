@@ -1,0 +1,371 @@
+.contentWrapper {
+    margin-top: 5%;
+    margin-left: 8%;
+    position: relative;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.categorySection {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.categoryHeader {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 147px;
+
+    align-items: flex-start;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: Rubik;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.dropdownTrigger {
+    display: flex;
+    flex-direction: row;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.dropdownButton,
+.dropdownButton:focus {
+    background-color: #252525;
+    color: #878787;
+    font-family: Rubik;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.dropdownIcon {
+    width: 15px;
+    height: 15px;
+
+    fill: #878787;
+    padding-left: 8px;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #333333;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdownOption {
+    color: #fff;
+    font-family: Rubik;
+    font-size: 13px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.dropdownOption:hover {
+    padding: 3px 4px 3px 4px;
+    border-radius: 5px;
+    background-color: #0099ff;
+}
+
+.paginationSection {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+
+.paginationDropdownTrigger {
+    display: flex;
+    flex-direction: row;
+
+    cursor: pointer;
+    user-select: none;
+    padding: 4px 10px;
+    background-color: #333333;
+    border-radius: 7px;
+}
+
+.paginationDropdownButton,
+.paginationDropdownButton:focus {
+    color: #ffffff;
+    font-family: Rubik;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.paginationDropdownMenu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #333333;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.requestListTitle {
+    position: absolute;
+    top: -25px;
+    right: 153px;
+    font-size: 14px;
+    font-family: Rubik;
+    color: #fff;
+    background-color: #333333;
+    padding: 5px 10px;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.requestListContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+}
+
+.requestListCount {
+    font-family: Rubik;
+    color: #fff;
+    font-size: 13px;
+}
+
+.viewModeIcons {
+    display: flex;
+    align-items: center;
+}
+
+.viewIcon {
+    width: 20px;
+    height: 20px;
+
+    fill: #878787;
+    padding-left: 8px;
+}
+
+.gridContainer {
+    position: relative;
+    margin-top: 3%;
+    display: grid;
+    gap: 20px;
+    width: 90%;
+    margin-bottom: 50px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gridItem {
+    width: 250px;
+    height: 325px;
+    background-color: #333333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gridContainerImg {
+    width: 100%;
+    height: 66%;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.gridImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gridContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 13px;
+    margin-top: 13px;
+    margin-right: 13px;
+}
+
+.gridContentTitle{
+    font-family: Rubik;
+    color: #fff;
+    font-size: 14px;
+}
+
+.gridContentDescription {
+    font-family: Rubik;
+    color: #878787;
+    font-size: 13px;
+}
+
+.gridItemLink {
+    width: 100%;
+    user-select: none;
+    background-color: #7C3AE3;
+    font-family: Rubik;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 100px;
+    padding: 5px 0px;
+}
+
+.listContainer {
+    position: relative;
+    margin-top: 2%;
+    display: grid;
+    gap: 15px;
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.listItem {
+    position: relative;
+    display: flex;
+    gap: 40px;
+    width: 68.5vw;
+    height: 25vh;
+    background-color: #333333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+}
+
+.listContainerImg {
+    width: 20%;
+    height: 100%;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.listImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.listContent {
+    display: flex;
+    flex-direction: column;
+    width: 26vw;
+    word-wrap: break-word;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.listContentTitle{
+    font-family: Rubik;
+    color: #fff;
+    font-size: 14px;
+}
+
+.listContentDescription {
+    font-family: Rubik;
+    color: #878787;
+    font-size: 13px;
+}
+
+.listItemLink {
+    position: absolute;
+    right: 60px;
+    bottom: 30px;
+    width: 29%;
+    user-select: none;
+    background-color: #7C3AE3;
+    font-family: Rubik;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 100px;
+    padding: 5px 0px;
+}
+
+.paginationContainer {
+    position: absolute;
+    right: 0;
+    bottom: -5vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.paginationCount {
+    font-family: Rubik;
+    color: #fff;
+    font-size: 12px;
+}
+
+.paginationControls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.paginationIcon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Medias granulares */
+/* Desktop Grande */
+@media (min-width: 1920px) {
+    .gridContainer {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+/* Desktop e Laptop Grande */
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .requestListTitle {
+        right: 120px;
+    }
+
+    .gridContainer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Desktop e Laptop Médio */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .request-list-title {
+        right: 60px; /* Ajuste conforme necessário */
+    }
+}
+
+/* Tablet e Laptop Pequeno */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .request-list-title {
+        right: 40px; /* Ajuste conforme necessário */
+    }
+}
+
+/* Tablet em Modo Retrato e Dispositivo Móvel Grande */
+@media (min-width: 480px) and (max-width: 767px) {
+    .request-list-title {
+        right: 30px; /* Ajuste conforme necessário */
+    }
+}
+
+/* Dispositivo Móvel Pequeno */
+@media (min-width: 320px) and (max-width: 479px) {
+    .request-list-title {
+        right: 20px; /* Ajuste conforme necessário */
+    }
+}
