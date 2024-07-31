@@ -25,10 +25,10 @@ export default function Sidebar() {
                     <span className={style.sectionTitle}>Solicitações</span>
                     <div className={style.linkContainer}>
                         <div>
-                            <a href="#" className={`${style.link} ${style.active}`}>
+                            <Link href="/" className={`${style.link} ${style.active}`}>
                                 <GridIcon className={style.icon} />
                                 <span className={style.linkText}>Materiais</span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -67,10 +67,10 @@ export default function Sidebar() {
                     <span className={style.sectionTitle}>Gerenciamento</span>
                     <div className={style.linkContainer}>
                         <div>
-                            <a className={style.link}>
+                            <Link href="/gerenciamento/cadastro/produto" className={style.link}>
                                 <ShelfIcon className={style.icon} />
                                 <span className={style.linkText}>Cadastro de Produtos</span>
-                            </a>
+                            </Link>
                         </div>
                         <div>
                             <a href="#" className={style.link}>
